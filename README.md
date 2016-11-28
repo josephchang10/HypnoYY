@@ -8,4 +8,6 @@
 
 ####作者
 ---
-张嘉夫![image](doge.jpg)    
+张嘉夫
+
+![image](doge.jpg)    
