@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CAD4FA71DEC4ADF00A5158E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FA61DEC4ADF00A5158E /* main.m */; };
+		7CAD4FAA1DEC4ADF00A5158E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FA91DEC4ADF00A5158E /* AppDelegate.m */; };
+		7CAD4FAD1DEC4ADF00A5158E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FAC1DEC4ADF00A5158E /* ViewController.m */; };
+		7CAD4FB01DEC4ADF00A5158E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD4FAE1DEC4ADF00A5158E /* Main.storyboard */; };
+		7CAD4FB21DEC4ADF00A5158E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD4FB11DEC4ADF00A5158E /* Assets.xcassets */; };
+		7CAD4FB51DEC4ADF00A5158E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD4FB31DEC4ADF00A5158E /* LaunchScreen.storyboard */; };
+		7CAD4FC01DEC4ADF00A5158E /* HypnoYYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FBF1DEC4ADF00A5158E /* HypnoYYTests.m */; };
+		7CAD4FCB1DEC4AE000A5158E /* HypnoYYUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FCA1DEC4AE000A5158E /* HypnoYYUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CAD4FBC1DEC4ADF00A5158E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CAD4F9A1DEC4ADF00A5158E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CAD4FA11DEC4ADF00A5158E;
+			remoteInfo = HypnoYY;
+		};
+		7CAD4FC71DEC4ADF00A5158E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CAD4F9A1DEC4ADF00A5158E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CAD4FA11DEC4ADF00A5158E;
+			remoteInfo = HypnoYY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CAD4FA21DEC4ADF00A5158E /* HypnoYY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoYY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAD4FA61DEC4ADF00A5158E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CAD4FA81DEC4ADF00A5158E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CAD4FA91DEC4ADF00A5158E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CAD4FAB1DEC4ADF00A5158E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CAD4FAC1DEC4ADF00A5158E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CAD4FAF1DEC4ADF00A5158E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CAD4FB11DEC4ADF00A5158E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CAD4FB41DEC4ADF00A5158E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CAD4FB61DEC4ADF00A5158E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CAD4FBB1DEC4ADF00A5158E /* HypnoYYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoYYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAD4FBF1DEC4ADF00A5158E /* HypnoYYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoYYTests.m; sourceTree = "<group>"; };
+		7CAD4FC11DEC4ADF00A5158E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CAD4FC61DEC4ADF00A5158E /* HypnoYYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoYYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAD4FCA1DEC4AE000A5158E /* HypnoYYUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoYYUITests.m; sourceTree = "<group>"; };
+		7CAD4FCC1DEC4AE000A5158E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CAD4F9F1DEC4ADF00A5158E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAD4FB81DEC4ADF00A5158E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAD4FC31DEC4ADF00A5158E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CAD4F991DEC4ADF00A5158E = {
+			isa = PBXGroup;
+			children = (
+				7CAD4FA41DEC4ADF00A5158E /* HypnoYY */,
+				7CAD4FBE1DEC4ADF00A5158E /* HypnoYYTests */,
+				7CAD4FC91DEC4AE000A5158E /* HypnoYYUITests */,
+				7CAD4FA31DEC4ADF00A5158E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CAD4FA31DEC4ADF00A5158E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD4FA21DEC4ADF00A5158E /* HypnoYY.app */,
+				7CAD4FBB1DEC4ADF00A5158E /* HypnoYYTests.xctest */,
+				7CAD4FC61DEC4ADF00A5158E /* HypnoYYUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CAD4FA41DEC4ADF00A5158E /* HypnoYY */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD4FA81DEC4ADF00A5158E /* AppDelegate.h */,
+				7CAD4FA91DEC4ADF00A5158E /* AppDelegate.m */,
+				7CAD4FAB1DEC4ADF00A5158E /* ViewController.h */,
+				7CAD4FAC1DEC4ADF00A5158E /* ViewController.m */,
+				7CAD4FAE1DEC4ADF00A5158E /* Main.storyboard */,
+				7CAD4FB11DEC4ADF00A5158E /* Assets.xcassets */,
+				7CAD4FB31DEC4ADF00A5158E /* LaunchScreen.storyboard */,
+				7CAD4FB61DEC4ADF00A5158E /* Info.plist */,
+				7CAD4FA51DEC4ADF00A5158E /* Supporting Files */,
+			);
+			path = HypnoYY;
+			sourceTree = "<group>";
+		};
+		7CAD4FA51DEC4ADF00A5158E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD4FA61DEC4ADF00A5158E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CAD4FBE1DEC4ADF00A5158E /* HypnoYYTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD4FBF1DEC4ADF00A5158E /* HypnoYYTests.m */,
+				7CAD4FC11DEC4ADF00A5158E /* Info.plist */,
+			);
+			path = HypnoYYTests;
+			sourceTree = "<group>";
+		};
+		7CAD4FC91DEC4AE000A5158E /* HypnoYYUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CAD4FCA1DEC4AE000A5158E /* HypnoYYUITests.m */,
+				7CAD4FCC1DEC4AE000A5158E /* Info.plist */,
+			);
+			path = HypnoYYUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CAD4FA11DEC4ADF00A5158E /* HypnoYY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CAD4FCF1DEC4AE000A5158E /* Build configuration list for PBXNativeTarget "HypnoYY" */;
+			buildPhases = (
+				7CAD4F9E1DEC4ADF00A5158E /* Sources */,
+				7CAD4F9F1DEC4ADF00A5158E /* Frameworks */,
+				7CAD4FA01DEC4ADF00A5158E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypnoYY;
+			productName = HypnoYY;
+			productReference = 7CAD4FA21DEC4ADF00A5158E /* HypnoYY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CAD4FBA1DEC4ADF00A5158E /* HypnoYYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CAD4FD21DEC4AE000A5158E /* Build configuration list for PBXNativeTarget "HypnoYYTests" */;
+			buildPhases = (
+				7CAD4FB71DEC4ADF00A5158E /* Sources */,
+				7CAD4FB81DEC4ADF00A5158E /* Frameworks */,
+				7CAD4FB91DEC4ADF00A5158E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CAD4FBD1DEC4ADF00A5158E /* PBXTargetDependency */,
+			);
+			name = HypnoYYTests;
+			productName = HypnoYYTests;
+			productReference = 7CAD4FBB1DEC4ADF00A5158E /* HypnoYYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CAD4FC51DEC4ADF00A5158E /* HypnoYYUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CAD4FD51DEC4AE000A5158E /* Build configuration list for PBXNativeTarget "HypnoYYUITests" */;
+			buildPhases = (
+				7CAD4FC21DEC4ADF00A5158E /* Sources */,
+				7CAD4FC31DEC4ADF00A5158E /* Frameworks */,
+				7CAD4FC41DEC4ADF00A5158E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CAD4FC81DEC4ADF00A5158E /* PBXTargetDependency */,
+			);
+			name = HypnoYYUITests;
+			productName = HypnoYYUITests;
+			productReference = 7CAD4FC61DEC4ADF00A5158E /* HypnoYYUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CAD4F9A1DEC4ADF00A5158E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "张嘉夫";
+				TargetAttributes = {
+					7CAD4FA11DEC4ADF00A5158E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T4TW6Z2N88;
+						ProvisioningStyle = Automatic;
+					};
+					7CAD4FBA1DEC4ADF00A5158E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T4TW6Z2N88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CAD4FA11DEC4ADF00A5158E;
+					};
+					7CAD4FC51DEC4ADF00A5158E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T4TW6Z2N88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CAD4FA11DEC4ADF00A5158E;
+					};
+				};
+			};
+			buildConfigurationList = 7CAD4F9D1DEC4ADF00A5158E /* Build configuration list for PBXProject "HypnoYY" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CAD4F991DEC4ADF00A5158E;
+			productRefGroup = 7CAD4FA31DEC4ADF00A5158E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CAD4FA11DEC4ADF00A5158E /* HypnoYY */,
+				7CAD4FBA1DEC4ADF00A5158E /* HypnoYYTests */,
+				7CAD4FC51DEC4ADF00A5158E /* HypnoYYUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CAD4FA01DEC4ADF00A5158E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAD4FB51DEC4ADF00A5158E /* LaunchScreen.storyboard in Resources */,
+				7CAD4FB21DEC4ADF00A5158E /* Assets.xcassets in Resources */,
+				7CAD4FB01DEC4ADF00A5158E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAD4FB91DEC4ADF00A5158E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAD4FC41DEC4ADF00A5158E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CAD4F9E1DEC4ADF00A5158E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAD4FAD1DEC4ADF00A5158E /* ViewController.m in Sources */,
+				7CAD4FAA1DEC4ADF00A5158E /* AppDelegate.m in Sources */,
+				7CAD4FA71DEC4ADF00A5158E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAD4FB71DEC4ADF00A5158E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAD4FC01DEC4ADF00A5158E /* HypnoYYTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAD4FC21DEC4ADF00A5158E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAD4FCB1DEC4AE000A5158E /* HypnoYYUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CAD4FBD1DEC4ADF00A5158E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CAD4FA11DEC4ADF00A5158E /* HypnoYY */;
+			targetProxy = 7CAD4FBC1DEC4ADF00A5158E /* PBXContainerItemProxy */;
+		};
+		7CAD4FC81DEC4ADF00A5158E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CAD4FA11DEC4ADF00A5158E /* HypnoYY */;
+			targetProxy = 7CAD4FC71DEC4ADF00A5158E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CAD4FAE1DEC4ADF00A5158E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CAD4FAF1DEC4ADF00A5158E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CAD4FB31DEC4ADF00A5158E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CAD4FB41DEC4ADF00A5158E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CAD4FCD1DEC4AE000A5158E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CAD4FCE1DEC4AE000A5158E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CAD4FD01DEC4AE000A5158E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T4TW6Z2N88;
+				INFOPLIST_FILE = HypnoYY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = social.street.HypnoYY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CAD4FD11DEC4AE000A5158E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T4TW6Z2N88;
+				INFOPLIST_FILE = HypnoYY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = social.street.HypnoYY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CAD4FD31DEC4AE000A5158E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T4TW6Z2N88;
+				INFOPLIST_FILE = HypnoYYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = social.street.HypnoYYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HypnoYY.app/HypnoYY";
+			};
+			name = Debug;
+		};
+		7CAD4FD41DEC4AE000A5158E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T4TW6Z2N88;
+				INFOPLIST_FILE = HypnoYYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = social.street.HypnoYYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HypnoYY.app/HypnoYY";
+			};
+			name = Release;
+		};
+		7CAD4FD61DEC4AE000A5158E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T4TW6Z2N88;
+				INFOPLIST_FILE = HypnoYYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = social.street.HypnoYYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HypnoYY;
+			};
+			name = Debug;
+		};
+		7CAD4FD71DEC4AE000A5158E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T4TW6Z2N88;
+				INFOPLIST_FILE = HypnoYYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = social.street.HypnoYYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HypnoYY;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CAD4F9D1DEC4ADF00A5158E /* Build configuration list for PBXProject "HypnoYY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAD4FCD1DEC4AE000A5158E /* Debug */,
+				7CAD4FCE1DEC4AE000A5158E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CAD4FCF1DEC4AE000A5158E /* Build configuration list for PBXNativeTarget "HypnoYY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAD4FD01DEC4AE000A5158E /* Debug */,
+				7CAD4FD11DEC4AE000A5158E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CAD4FD21DEC4AE000A5158E /* Build configuration list for PBXNativeTarget "HypnoYYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAD4FD31DEC4AE000A5158E /* Debug */,
+				7CAD4FD41DEC4AE000A5158E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CAD4FD51DEC4AE000A5158E /* Build configuration list for PBXNativeTarget "HypnoYYUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAD4FD61DEC4AE000A5158E /* Debug */,
+				7CAD4FD71DEC4AE000A5158E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CAD4F9A1DEC4ADF00A5158E /* Project object */;
+}
