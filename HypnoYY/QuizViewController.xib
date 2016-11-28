@@ -22,31 +22,31 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1Z-Ll-A2y">
-                    <rect key="frame" x="16" y="20" width="343" height="21"/>
+                    <rect key="frame" x="16" y="96" width="343" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knc-4u-qQN">
-                    <rect key="frame" x="16" y="539" width="343" height="21"/>
+                    <rect key="frame" x="16" y="476" width="343" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6az-lK-w0Q">
-                    <rect key="frame" x="16" y="568" width="343" height="30"/>
+                    <rect key="frame" x="16" y="505" width="343" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Show Answer"/>
+                    <state key="normal" title="显示答案"/>
                     <connections>
                         <action selector="showAnswer:" destination="-1" eventType="touchUpInside" id="P08-Sn-GuQ"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pq0-c1-7or">
-                    <rect key="frame" x="17" y="49" width="343" height="30"/>
+                    <rect key="frame" x="17" y="125" width="343" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Show Question"/>
+                    <state key="normal" title="显示问题"/>
                     <connections>
                         <action selector="showQuestion:" destination="-1" eventType="touchUpInside" id="KbI-lT-yoQ"/>
                     </connections>

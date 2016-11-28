@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "HypnosisViewController.h"
+#import "ReminderViewController.h"
+#import "QuizViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    // 在这里添加应用启动后的初始化代码
+    HypnosisViewController *hvc = [[HypnosisViewController alloc]init];
+    ReminderViewController *rvc = [[ReminderViewController alloc]init];
+    QuizViewController *qvc = [[QuizViewController alloc]init];
+    UITabBarController *tabBarController = [[UITabBarController alloc]init];
+    tabBarController.viewControllers = @[hvc, rvc, qvc];
+    self.window.rootViewController = tabBarController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

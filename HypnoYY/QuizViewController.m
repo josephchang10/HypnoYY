@@ -31,8 +31,16 @@
     if (self) {
         // 创建两个数组对象，存储所需的问题和答案
         // 同时，将questions和answers分别指向问题数组和答案数组
-        self.questions = @[@"From what is cognac made?", @"What is 7+7?", @"What is the capital of Vermont?"];
-        self.answers = @[@"Grapes", @"14", @"Montpelier"];
+        self.questions = @[@"世界上最英俊的人是谁?", @"世界上最蠢的人是谁?", @"不上班行不行?"];
+        self.answers = @[@"张嘉夫", @"姚瑶", @"我养你啊"];
+        //设置标签项的标题
+        self.tabBarItem.title = @"课堂测验";
+        // 从图像文件创建一个UIImage对象
+        // 在Retina显示屏上会加载Hypno@2x.png，而不是Hypno.png
+        UIImage *i = [UIImage imageNamed:@"Quiz.png"];
+        // 将UIImage对象赋给标签项的image属性
+        self.tabBarItem.image = i;
+        self.currentQuestionIndex = -1;
     }
     //返回新对象的地址
     return self;
@@ -62,5 +70,7 @@
     // 在答案标签上显示相应的答案
     self.answerLabel.text = answer;
 }
+
+
 
 @end

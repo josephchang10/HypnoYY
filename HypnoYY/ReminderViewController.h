@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface ReminderViewController : NSObject
+@interface ReminderViewController : UIViewController
 
 @end

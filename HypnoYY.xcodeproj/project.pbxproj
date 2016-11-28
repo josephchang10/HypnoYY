@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C55DCB91DEC61070055ABDB /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C55DCB71DEC61070055ABDB /* QuizViewController.m */; };
+		7C55DCBA1DEC61070055ABDB /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C55DCB81DEC61070055ABDB /* QuizViewController.xib */; };
 		7CAD4FA71DEC4ADF00A5158E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FA61DEC4ADF00A5158E /* main.m */; };
 		7CAD4FAA1DEC4ADF00A5158E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FA91DEC4ADF00A5158E /* AppDelegate.m */; };
-		7CAD4FAD1DEC4ADF00A5158E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FAC1DEC4ADF00A5158E /* ViewController.m */; };
-		7CAD4FB01DEC4ADF00A5158E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD4FAE1DEC4ADF00A5158E /* Main.storyboard */; };
 		7CAD4FB21DEC4ADF00A5158E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD4FB11DEC4ADF00A5158E /* Assets.xcassets */; };
 		7CAD4FB51DEC4ADF00A5158E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD4FB31DEC4ADF00A5158E /* LaunchScreen.storyboard */; };
 		7CAD4FC01DEC4ADF00A5158E /* HypnoYYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FBF1DEC4ADF00A5158E /* HypnoYYTests.m */; };
 		7CAD4FCB1DEC4AE000A5158E /* HypnoYYUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FCA1DEC4AE000A5158E /* HypnoYYUITests.m */; };
+		7CAD4FDA1DEC4B5100A5158E /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FD91DEC4B5100A5158E /* HypnosisViewController.m */; };
+		7CAD4FDD1DEC4C2F00A5158E /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FDC1DEC4C2F00A5158E /* BNRHypnosisView.m */; };
+		7CAD4FE01DEC53E100A5158E /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD4FDF1DEC53E100A5158E /* ReminderViewController.m */; };
+		7CAD4FE21DEC54FA00A5158E /* ReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD4FE11DEC54FA00A5158E /* ReminderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C55DCB61DEC61070055ABDB /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		7C55DCB71DEC61070055ABDB /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		7C55DCB81DEC61070055ABDB /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
 		7CAD4FA21DEC4ADF00A5158E /* HypnoYY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoYY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAD4FA61DEC4ADF00A5158E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CAD4FA81DEC4ADF00A5158E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CAD4FA91DEC4ADF00A5158E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7CAD4FAB1DEC4ADF00A5158E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7CAD4FAC1DEC4ADF00A5158E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7CAD4FAF1DEC4ADF00A5158E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CAD4FB11DEC4ADF00A5158E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CAD4FB41DEC4ADF00A5158E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CAD4FB61DEC4ADF00A5158E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,13 @@
 		7CAD4FC61DEC4ADF00A5158E /* HypnoYYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoYYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAD4FCA1DEC4AE000A5158E /* HypnoYYUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoYYUITests.m; sourceTree = "<group>"; };
 		7CAD4FCC1DEC4AE000A5158E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CAD4FD81DEC4B5100A5158E /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
+		7CAD4FD91DEC4B5100A5158E /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
+		7CAD4FDB1DEC4C2F00A5158E /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		7CAD4FDC1DEC4C2F00A5158E /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
+		7CAD4FDE1DEC53E100A5158E /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		7CAD4FDF1DEC53E100A5158E /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
+		7CAD4FE11DEC54FA00A5158E /* ReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +114,20 @@
 			children = (
 				7CAD4FA81DEC4ADF00A5158E /* AppDelegate.h */,
 				7CAD4FA91DEC4ADF00A5158E /* AppDelegate.m */,
-				7CAD4FAB1DEC4ADF00A5158E /* ViewController.h */,
-				7CAD4FAC1DEC4ADF00A5158E /* ViewController.m */,
-				7CAD4FAE1DEC4ADF00A5158E /* Main.storyboard */,
 				7CAD4FB11DEC4ADF00A5158E /* Assets.xcassets */,
 				7CAD4FB31DEC4ADF00A5158E /* LaunchScreen.storyboard */,
 				7CAD4FB61DEC4ADF00A5158E /* Info.plist */,
 				7CAD4FA51DEC4ADF00A5158E /* Supporting Files */,
+				7CAD4FD81DEC4B5100A5158E /* HypnosisViewController.h */,
+				7CAD4FD91DEC4B5100A5158E /* HypnosisViewController.m */,
+				7CAD4FDB1DEC4C2F00A5158E /* BNRHypnosisView.h */,
+				7CAD4FDC1DEC4C2F00A5158E /* BNRHypnosisView.m */,
+				7CAD4FDE1DEC53E100A5158E /* ReminderViewController.h */,
+				7CAD4FDF1DEC53E100A5158E /* ReminderViewController.m */,
+				7CAD4FE11DEC54FA00A5158E /* ReminderViewController.xib */,
+				7C55DCB61DEC61070055ABDB /* QuizViewController.h */,
+				7C55DCB71DEC61070055ABDB /* QuizViewController.m */,
+				7C55DCB81DEC61070055ABDB /* QuizViewController.xib */,
 			);
 			path = HypnoYY;
 			sourceTree = "<group>";
@@ -250,8 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CAD4FB51DEC4ADF00A5158E /* LaunchScreen.storyboard in Resources */,
+				7CAD4FE21DEC54FA00A5158E /* ReminderViewController.xib in Resources */,
 				7CAD4FB21DEC4ADF00A5158E /* Assets.xcassets in Resources */,
-				7CAD4FB01DEC4ADF00A5158E /* Main.storyboard in Resources */,
+				7C55DCBA1DEC61070055ABDB /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CAD4FAD1DEC4ADF00A5158E /* ViewController.m in Sources */,
+				7CAD4FDA1DEC4B5100A5158E /* HypnosisViewController.m in Sources */,
 				7CAD4FAA1DEC4ADF00A5158E /* AppDelegate.m in Sources */,
+				7CAD4FDD1DEC4C2F00A5158E /* BNRHypnosisView.m in Sources */,
 				7CAD4FA71DEC4ADF00A5158E /* main.m in Sources */,
+				7CAD4FE01DEC53E100A5158E /* ReminderViewController.m in Sources */,
+				7C55DCB91DEC61070055ABDB /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +336,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7CAD4FAE1DEC4ADF00A5158E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7CAD4FAF1DEC4ADF00A5158E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7CAD4FB31DEC4ADF00A5158E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -514,6 +528,7 @@
 				7CAD4FD11DEC4AE000A5158E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CAD4FD21DEC4AE000A5158E /* Build configuration list for PBXNativeTarget "HypnoYYTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +537,7 @@
 				7CAD4FD41DEC4AE000A5158E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CAD4FD51DEC4AE000A5158E /* Build configuration list for PBXNativeTarget "HypnoYYUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +546,7 @@
 				7CAD4FD71DEC4AE000A5158E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
