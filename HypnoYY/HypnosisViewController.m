@@ -53,12 +53,13 @@
 }
 
 -(void)drawHypnoticMessage:(NSString*)message {
-    for (int i = 0; i<20; i++) {
+    for (int i = 0; i<30; i++) {
         UILabel *messageLabel = [[UILabel alloc]init];
         //设置UILabel对象的文字和颜色
         messageLabel.backgroundColor = [UIColor clearColor];
         messageLabel.textColor = [UIColor whiteColor];
         messageLabel.text = message;
+        messageLabel.font = [UIFont systemFontOfSize:25];
         //根据需要显示的文字调整UILabel对象的大小
         [messageLabel sizeToFit];
         //获取随机x坐标，
@@ -75,6 +76,15 @@
         messageLabel.frame = frame;
         //将UILabel对象添加到HypnosisViewController的view中
         [self.view addSubview:messageLabel];
+        UIInterpolatingMotionEffect *motionEffect;
+        motionEffect = [[UIInterpolatingMotionEffect alloc]initWithKeyPath:@"center.x" type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
+        motionEffect.minimumRelativeValue = @(-25);
+        motionEffect.maximumRelativeValue = @(25);
+        [messageLabel addMotionEffect:motionEffect];
+        motionEffect = [[UIInterpolatingMotionEffect alloc]initWithKeyPath:@"center.y" type:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis];
+        motionEffect.minimumRelativeValue = @(-25);
+        motionEffect.maximumRelativeValue = @(25);
+        [messageLabel addMotionEffect:motionEffect];
     }
 }
 
