@@ -10,7 +10,7 @@
 #import "BNRHypnosisView.h"
 
 @interface HypnosisViewController()<UITextFieldDelegate>
-
+@property (nonatomic, weak) UITextField *textField;
 @end
 
 @implementation HypnosisViewController
@@ -19,7 +19,7 @@
     CGRect frame = [UIScreen mainScreen].bounds;
     //创建一个BNRHypnosisView对象
     BNRHypnosisView *backgroundView = [[BNRHypnosisView alloc]initWithFrame:frame];
-    CGRect textFieldRect = CGRectMake(40, 70, 240, 30);
+    CGRect textFieldRect = CGRectMake(40, -20, 240, 30);
     UITextField *textField = [[UITextField alloc]initWithFrame:textFieldRect];
     //设置UITextField对象的边框样式，便于查看它在屏幕上的位置
     textField.borderStyle = UITextBorderStyleRoundedRect;
@@ -28,6 +28,7 @@
     //这里Xcode会提示一处警告信息，下一节将介绍原因并消除该警告
     textField.delegate = self;
     [backgroundView addSubview:textField];
+    self.textField = textField;
     //将BNRHypnosisView对象赋给视图控制器的view属性
     self.view = backgroundView;
 }
@@ -50,6 +51,14 @@
     //必须调用父类的viewDidLoad
     [super viewDidLoad];
     NSLog(@"HypnosisViewController loaded its view.");
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [UIView animateWithDuration:2.0 delay:0.0 usingSpringWithDamping:0.25 initialSpringVelocity:0.0 options:0 animations:^{
+        CGRect frame = CGRectMake(40, 70, 240, 30);
+        self.textField.frame = frame;
+    } completion:NULL];
 }
 
 -(void)drawHypnoticMessage:(NSString*)message {
