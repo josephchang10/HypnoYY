@@ -76,6 +76,12 @@
         messageLabel.frame = frame;
         //将UILabel对象添加到HypnosisViewController的view中
         [self.view addSubview:messageLabel];
+        //设置messageLabel透明度的起始值
+        messageLabel.alpha = 0.0;
+        //让messageLabel的透明度由0.0变为1.0
+        [UIView animateWithDuration:0.5 animations:^{
+            messageLabel.alpha = 1.0;
+        }];
         UIInterpolatingMotionEffect *motionEffect;
         motionEffect = [[UIInterpolatingMotionEffect alloc]initWithKeyPath:@"center.x" type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
         motionEffect.minimumRelativeValue = @(-25);
